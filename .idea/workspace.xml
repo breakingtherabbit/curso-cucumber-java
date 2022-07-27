@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/aprenderCucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/aprenderCucumber.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     <configuration name="[FEATURE] Aprender Cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/com/examples/cucumber/src/test/java/aprenderCucumber.feature" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <option name="MAIN_CLASS_NAME" value="gherkin.cli.Main" />
       <module name="curso-cucumber-java" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
@@ -158,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658946287261</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="9. CucumberOptions">
+      <created>1658946832389</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658946832389</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
