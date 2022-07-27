@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="189c049f-c055-4655-9453-fd4d343222b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/features/AprenderCucumber.java" afterDir="false" />
+    <list default="true" id="189c049f-c055-4655-9453-fd4d343222b3" name="Changes" comment="9. CucumberOptions">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +50,34 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/imedeiros/repos/curso-cucumber-java/src/main/java",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "last_opened_file_path": "/home/imedeiros/repos/curso-cucumber-java/com/examples/cucumber/src/test/java/aprenderCucumber.feature",
     "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29807004",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/steps" />
+      <recent name="$PROJECT_DIR$/com/examples/cucumber/src/test/java" />
+      <recent name="$PROJECT_DIR$/com.examples.cucumber/examples/cucumber" />
+      <recent name="$PROJECT_DIR$/com.examples.cucumber" />
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+      <recent name="$PROJECT_DIR$/src/test/java/features" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: aprender_cucumber (1)">
-    <configuration name="Feature: aprender_cucumber (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="[FEATURE] Aprender Cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/aprender_cucumber.feature" />
-      <option name="GLUE" value="features" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/com/examples/cucumber/src/test/java/aprenderCucumber.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="curso-cucumber-java" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: aprender_cucumber" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -85,60 +88,29 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: aprender_cucumber" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="curso-cucumber-java" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/features/aprender_cucumber.feature" />
-      <option name="GLUE" value="features" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="curso-cucumber-java" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: aprender_cucumber" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: Deve executar especificação" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/aprender_cucumber.feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="curso-cucumber-java" />
-      <option name="NAME_FILTER" value="^Deve executar especificação$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Deve executar especificação$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Deve executar especificação" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Runner" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: aprender_cucumber (1)" />
-      <item itemvalue="Cucumber Java.Feature: aprender_cucumber" />
-      <item itemvalue="Cucumber Java.Scenario: Deve executar especificação" />
+      <item itemvalue="Cucumber Java.[FEATURE] Aprender Cucumber" />
+      <item itemvalue="JUnit.Runner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: aprender_cucumber (1)" />
-        <item itemvalue="Cucumber Java.Feature: aprender_cucumber" />
-        <item itemvalue="Cucumber Java.Feature: aprender_cucumber" />
-        <item itemvalue="Cucumber Java.Scenario: Deve executar especificação" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.[FEATURE] Aprender Cucumber" />
       </list>
     </recent_temporary>
   </component>
@@ -151,6 +123,42 @@
       <option name="presentableId" value="Default" />
       <updated>1658785698653</updated>
     </task>
+    <task id="LOCAL-00001" summary="Add .gitignore to project">
+      <created>1658920424361</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658920424361</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Hello, Cucumber">
+      <created>1658920577338</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658920577338</updated>
+    </task>
+    <task id="LOCAL-00003" summary="7. Tudo em português">
+      <created>1658923515736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658923515737</updated>
+    </task>
+    <task id="LOCAL-00004" summary="8. Integrando com JUnit">
+      <created>1658944193422</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658944193422</updated>
+    </task>
+    <task id="LOCAL-00005" summary="9. CucumberOptions">
+      <created>1658946287261</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658946287261</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,5 +171,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add .gitignore to project" />
+    <MESSAGE value="Hello, Cucumber" />
+    <MESSAGE value="7. Tudo em português" />
+    <MESSAGE value="8. Integrando com JUnit" />
+    <MESSAGE value="9. CucumberOptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. CucumberOptions" />
   </component>
 </project>
