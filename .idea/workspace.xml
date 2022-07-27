@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="189c049f-c055-4655-9453-fd4d343222b3" name="Changes" comment="9. CucumberOptions">
+    <list default="true" id="189c049f-c055-4655-9453-fd4d343222b3" name="Changes" comment="11. Asserts">
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java" afterDir="false" />
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658946832389</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="11. Asserts">
+      <created>1658948873227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658948873227</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +192,18 @@
     <MESSAGE value="7. Tudo em português" />
     <MESSAGE value="8. Integrando com JUnit" />
     <MESSAGE value="9. CucumberOptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="9. CucumberOptions" />
+    <MESSAGE value="11. Asserts" />
+    <option name="LAST_COMMIT_MESSAGE" value="11. Asserts" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/com/examples/cucumber/src/test/java/AprenderCucumber.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
